@@ -1,0 +1,20 @@
+$back-color: rgb(94, 94, 245);
+.form {
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+        width: 200px;
+        height: 20px;
+    }
+    button {
+        margin-left: 60px;
+        background-color: $back-color;
+        color: white;
+
+        width: 90px;
+        height: 20px;
+    }
+}

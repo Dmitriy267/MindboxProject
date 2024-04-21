@@ -1,0 +1,25 @@
+.li {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid black;
+    height: 25px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox:checked {
+    appearance: auto;
+    clip-path: circle(50% at 50% 50%);
+    background-color: blue;
+}

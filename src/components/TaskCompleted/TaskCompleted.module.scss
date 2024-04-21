@@ -1,0 +1,12 @@
+.wrapperDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    button {
+        width: 220px;
+        height: 32px;
+    }
+    button:nth-child(2) {
+        margin-top: 40px;
+    }
+}
