@@ -19,8 +19,10 @@ export const Form: FC = () => {
     return (
         <>
             <form onSubmit={handleSubmit} className={styles.form}>
+                <label htmlFor="task">Задача</label>
                 <input
                     type="text"
+                    id="task"
                     placeholder="Введите название задачи"
                     value={value}
                     onChange={handleChange}
