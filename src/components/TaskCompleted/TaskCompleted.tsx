@@ -9,7 +9,7 @@ export const TaskCompleted: FC = () => {
 
     return (
         <div className={styles.wrapperDiv}>
-            <button onClick={() => setTaskTrue((prev) => !prev)}>
+            <button onClick={() => setTaskTrue((prev) => !prev)} role="button">
                 Показать выполненые задачи
             </button>
 

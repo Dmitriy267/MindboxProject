@@ -11,6 +11,7 @@ export const TodoItem: FC<TodoItemProps> = ({ completed, id, task }) => {
         <li className={styles.li}>
             <input
                 type="checkbox"
+                role="checkbox"
                 checked={completed}
                 onChange={() => {
                     dispatch(toggleTodo(id));
