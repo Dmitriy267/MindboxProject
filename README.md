@@ -4,4 +4,4 @@
 Добавлены кнопки со списком выполненых и невыполненых задач.
 Проект запускается на http://localhost:3000/
 
-Стек технологий: React, TypeScript, Redux Toolkit, SCSS, React Testing Library
+Стек технологий: React, TypeScript, Redux Toolkit, SCSS, React Testing Library.
