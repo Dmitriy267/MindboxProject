@@ -5,3 +5,4 @@
 Проект запускается на http://localhost:3000/
 
 Стек технологий: React, TypeScript, Redux Toolkit, SCSS, React Testing Library.
+Ссылка на Vercel: https://mindbox-project.vercel.app/
